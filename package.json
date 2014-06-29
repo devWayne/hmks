@@ -1,0 +1,14 @@
+{
+  "name": "ajaxdebug",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./index",
+  "scripts": {
+     "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+     "jest-cli": "^0.1.15"
+  }
+}
