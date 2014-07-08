@@ -42,10 +42,14 @@ http.createServer(function(req, res) {
 		
 	});
 	res.writeHead(200, {
-		'Content-Type': 'text/plain'
+		'Content-Type': 'application/json',
+		'Access-Control-Allow-Origin':'*'
 	});
-	var strObj = fs.readFileSync("params.txt").toString();
-	//var strJson = JSON.parse(strObj);//jsonp
+	//var strObj = '{"a":"1","b":2}'
+	var strObj=fs.readFileSync("params.txt").toString();
+	console.log(strObj);
+	var strJson = JSON.parse(strObj);//jsonp
+	console.log(strJson);
 	//var data = {'name': 'viwayne', 'age':'22'}; 
 	//var str ='(' + JSON.stringify(strObj) + ')';
 	//var str =JSON.stringify(strJson) ;
