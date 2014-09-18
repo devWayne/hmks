@@ -1,14 +1,34 @@
 {
-  "name": "ajaxdebug",
-  "version": "0.0.1",
-  "description": "",
-  "main": "./index",
+  "name": "hms",
+  "version": "0.1.0",
+  "description": "http mock server",
+  "main": "index.js",
+  "repository": "https://github.com/devWayne/hms.git",
   "scripts": {
-     "test": "jest"
+    "test": "mocha"
   },
-  "author": "",
+  "author": "VI",
+  "dependencies":{
+    "commander":"2.3.0",
+    "request":"2.42.0",
+    "clilog":"1.0.0"
+    },
   "license": "MIT",
   "devDependencies": {
-     "jest-cli": "^0.1.15"
+    "co": "*",
+    "mocha": "*",
+    "should": "^3.3.2",
+    "supertest": "*"
+  },
+  "engines": {
+    "node": ">= 11.3"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devWayne/hps/issues"
+  },
+  "homepage": "https://github.com/devWayne/hps",
+  "directories": {
+    "test": "test"
   }
 }
