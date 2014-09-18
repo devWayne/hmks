@@ -1,9 +1,9 @@
 {
-  "name": "hms",
+  "name": "hmks",
   "version": "0.1.0",
   "description": "http mock server",
   "main": "index.js",
-  "repository": "https://github.com/devWayne/hms.git",
+  "repository": "https://github.com/devWayne/hmks.git",
   "scripts": {
     "test": "mocha"
   },
@@ -25,9 +25,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/devWayne/hps/issues"
+    "url": "https://github.com/devWayne/hmks/issues"
   },
-  "homepage": "https://github.com/devWayne/hps",
+  "homepage": "https://github.com/devWayne/hmks",
   "directories": {
     "test": "test"
   }
